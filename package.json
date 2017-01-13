@@ -5,14 +5,13 @@
   "main": "index.js",
   "typings": "index.d.ts",
   "scripts": {
-    "update": "(cd build && node ./update && node ./update-ts)",
     "test": "browserify test/*.js > test/bundle.js --debug && opener test/index.html"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/thlorenz/brace.git"
+    "url": "git://github.com/viasocket/brace.git"
   },
-  "homepage": "https://github.com/thlorenz/brace",
+  "homepage": "https://github.com/viasocket/brace",
   "dependencies": {
     "w3c-blob": "0.0.1"
   },
@@ -33,9 +32,9 @@
     "browserify"
   ],
   "author": {
-    "name": "Thorsten Lorenz",
-    "email": "thlorenz@gmx.de",
-    "url": "http://thlorenz.com"
+    "name": "Sameer Rathod  --  Originally (Thorsten Lorenz)",
+    "email": "sameer@walkover.in -- thlorenz@gmx.de"
+    
   },
   "license": "MIT",
   "engine": {

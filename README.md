@@ -1,4 +1,5 @@
-# brace
+# brace for viasocket
+# This repository is forked from brace and is used to customised some functionaly specifically for using it in viasocket.com
 
 [browserify](https://github.com/substack/node-browserify) compatible version of the [ace editor](http://ajaxorg.github.io/ace/).
 
